@@ -1,0 +1,246 @@
+
+
+.header{
+    font-size: 100px;
+ color: gold;
+ background-color: black;
+ text-align: center;
+}
+.nav{
+    height: 75px;
+    width:100%;
+    display: flex;
+    background-color: black;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: relative;
+    z-index: 1;
+    
+    
+
+}
+nav .nav{
+    font-size: 29.5px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.nav a{
+    color: #fff;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    
+}
+.about{
+   
+    color: rgb(16, 4, 4);
+    font-weight: bolder;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+.about h1{
+    
+    text-align: justify;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+   
+
+}
+.address{
+    padding-left: 200px;
+    background-color:  rgb(242, 202, 123);;
+}
+.about{
+    background-color:  rgb(242, 202, 123);
+   
+    
+}
+.about h1{
+    text-align: center;
+}
+
+
+
+.about p{
+    background-color:  rgb(242, 202, 123);
+    font-size: larger;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    
+    
+   
+}
+.address h5{
+    text-align: justify;
+    padding-left: 300px;
+}
+.address h4{
+    text-align: justify;
+    padding-left: 390px;
+}
+.address p{
+    text-align: center;
+    padding-right: 330px;
+}
+.menu{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin: 50px 0;
+background-color:  rgb(242, 202, 123);
+
+}
+.card{
+    width: 20%;
+    margin: 30px;
+    box-sizing: border-box;
+    float: center;
+    text-align: center;
+    border-radius: 20px;
+    border-color: rgb(242, 202, 123);
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0,25);
+
+    
+
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 100px 15%;
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.location{
+    flex-grow: 2;
+
+}
+.footer div h2{
+    font-weight: 300px;
+    margin-bottom: 30px;
+    letter-spacing:1 ;
+}
+.link a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    margin-bottom: 10px;
+
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.gallery{
+    border-radius: 20px;
+    background-image: url("C:\Users\AMANDEEP SINGH\OneDrive\Desktop\New folder (3)/pic8.jfif,0.5");
+    padding-left: 290px;
+}
+.veg{
+    padding-left: 50px;
+    background-image: url('bajpg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-align: center;
+}
+.non-veg{
+    padding-left: 400px;
+
+}
+.menu{
+    align-items: center;
+}
+.seat h1{
+    text-align: center;
+
+}
+.call h2{
+text-align: center;
+}
+.call h5{
+    text-align: center;
+}
+.call h1{
+    text-align: center;
+    color: grey;
+}
+.forrm h1,h5,p,form{
+    text-align: center;
+    background-image: url('C:\Users\AMANDEEP SINGH\OneDrive\Desktop\New folder (3)/back.jpeg');
+}
+.con h1,h2{
+    text-align: center;
+}
+.wrt h6{
+    text-align: center;
+    color: green;
+
+}
+iframe{
+ width: 50%;
+align-content: center;
+}
+
+.order h1{
+    text-align: center;
+}
+.zomato{
+    text-align: center;
+}
+.booking{
+    padding: 20px 0;
+    margin: 0 auto;
+    color: aqua;
+}
+.book{
+    display: grid;
+    grid-row-gap: 20px;
+    justify-content: space-between;
+
+}
+.form h6{
+    font-weight: 600;
+}
+input,select{
+    pad: 10px 15px;
+}
+button{
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    
+}
